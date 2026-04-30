@@ -1,20 +1,12 @@
-<a href="https://cookbook.openai.com" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/images/openai-cookbook-white.png" style="max-width: 100%; width: 400px; margin-bottom: 20px">
-    <img alt="OpenAI Cookbook Logo" src="/images/openai-cookbook.png" width="400px">
-  </picture>
-</a>
-
-<h3></h3>
- 
-> ✨ Navigate at [cookbook.openai.com](https://cookbook.openai.com)
-
-Example code and guides for accomplishing common tasks with the [OpenAI API](https://platform.openai.com/docs/introduction). To run these examples, you'll need an OpenAI account and associated API key ([create a free account here](https://platform.openai.com/signup)). Set an environment variable called `OPENAI_API_KEY` with your API key. Alternatively, in most IDEs such as Visual Studio Code, you can create an `.env` file at the root of your repo containing `OPENAI_API_KEY=<your API key>`, which will be picked up by the notebooks.
-
-Most code examples are written in Python, though the concepts can be applied in any language.
-
-For other useful tools, guides and courses, check out these [related resources from around the web](https://cookbook.openai.com/related_resources).
-
-## License
-
-MIT License
+# 3D AI桌面智能宠物项目
+## 项目简介
+本项目是一款由大模型驱动的3D桌面智能宠物，旨在打造集情感陪伴、场景感知、智能工具调用于一体的桌面交互入口，解决传统桌面宠物缺乏智能、AI助手缺乏温度的双重痛点。
+## 核心功能
+1.  拟人化互动：支持文本对话，宠物会根据对话内容做出表情和动作反馈。
+2.  智能响应：基于大模型的理解能力，实现闲聊、指令、求助等多场景交互。
+3.  场景感知：在用户授权下，可结合桌面状态提供个性化服务，如提醒休息、整理文件。
+4.  轻量易用：常驻桌面，不占用过多系统资源，随开随用。
+## 项目进展
+- 已完成：项目方案设计、3D渲染框架搭建、大模型基础对话对接。
+- 开发中：多模块协同逻辑开发、系统状态感知功能实现。
+- 后续规划：扩展工具调用功能、优化长期记忆、打磨交互体验。
